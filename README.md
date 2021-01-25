@@ -8,8 +8,13 @@ This application can be run by downloading the included APK file and sideloading
 
 A video demoing this project can be found here: https://youtu.be/eP_qCzppsg4 
 
+# Description
+The main goal that I implemented was to create a way to view the terrain at any angle up close via the use of an interactable map. This places the terrain on a block where you can adjust the position(x & z), scale, and rotation. Due to the time constraint this is controlled through the use of sliders with more time this could be implemented by simply grabbing the terrain and moving it however you like. The main goal to overcome with this is restricting the terrain to be rendered when leaving the bounds of the block for the main. This was implemented by creating a custom vertex shader which simply discards the color black. Thus when a vertex of the terrain leaves the bounds of the map that vertex is then colored black where the shader will then discard it. 
 
-# Overview
+As a side feature to this, a character controller was created allowing the user to walk around both the map to see it at any angle if desired and also walk around on  terrain model allowing them to actually explore this. 
+
+
+# Requirements Overview
 
 For this project, we would like you to develop an XR application for viewing terrain data. You
 may use any framework or library you already have experience in. The final deliverables will be:
