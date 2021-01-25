@@ -1,6 +1,13 @@
 # Cesium XR Interview Project
 
-This project is created using Unity3D. (Version: 2019.4.3f1 LTS)
+This project is created using Unity3D for the Oculus Quest(1st Gen. Tested). (Version: 2019.4.3f1 LTS)
+
+The source code can be found in the 'Cesium-XR-Terrain-Unity-Project' folder. You can simply view the files directly from the asset folder here or download the full Unity project and view on your machine using the Unity version listed above.
+
+This application can be run by downloading the included APK file and sideloading it to your quest device where you can find it in your unknown files folder. Or alternatively if you downloaded the entire Unity project you can run the project in the Unity play mode by connecting an Oculus Link cable to your device and enabling oculus desktop(Here you can test in play mode or simply build the project to your device, granted all the needed setting carried over to github). 
+
+A video demoing this project can be found here: https://youtu.be/eP_qCzppsg4 
+
 
 # Overview
 
